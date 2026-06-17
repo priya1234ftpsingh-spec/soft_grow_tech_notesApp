@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+   
+    background: peachpuff;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+h1 {
+    margin-top: 5vw;
+    text-align: center;
+    color: indigo;
+    margin-bottom: 20px;
+    font-size: 3vw;
+
+}
+
+.input-box {
+    max-width: 500px;
+    margin:auto;
+    background: #ffffff;
+    padding:15px;
+    border-radius: 12px;
+    display: flex;
+    gap: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+textarea {
+    flex:1;
+    height: 70px;
+    border:none;
+    outline:none;
+    resize:none;
+    font-size:14px;
+
+}
+button {
+    background: #ffb703;
+    border: none;
+    padding: 0 18px;
+    border-radius: 8px;
+    cursor: pointer;
+font-weight: bold;
+}
+.notes-container {
+    display: flex;
+gap: 20px;
+margin-top: 40px;
+justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.note{
+    width: 200px;
+    height:200px;
+    background: #fff3a0;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.25);
+    overflow-y: auto ;
+    transform:rotate(-1deg);
+    transition:  transform 0.2s;
+}
+.note:hover {
+    transform: scale(1.05) rotate(0deg);
+}
+.delete{
+    position:absolute;
+    top:8px;
+    right:10px;
+    cursor:pointer;
+    font-size:18px;
+}
