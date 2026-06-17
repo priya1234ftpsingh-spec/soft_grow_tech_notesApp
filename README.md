@@ -32,4 +32,4 @@ A modern and responsive Notes App built using HTML, CSS, and JavaScript. The app
 
 1. Clone the repository
    ```bash
-   git clone <repository-link>
+   git clone <https://github.com/priya1234ftpsingh-spec/soft_grow_tech_notesApp>
